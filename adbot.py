@@ -25,8 +25,8 @@ CONFIG_FILE = "bot_config.json"
 DEFAULT_CONFIG = {
     "host_usernames": ["T.IC"],
     "admin_usernames": ["T.IC"],
-    "vip_usernames": [],
-    "banned_users": [],
+    "vip_usernames": ["T.IC"],
+    "banned_users": ["T.IC"],
     "teleport_locations": {
         "vip": {"x": 14.5, "y": 16.75, "z": 5.5},
         "vip1": {"x": 14.5, "y": 16.75, "z": 5.5},
