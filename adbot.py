@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 # تنظیمات پیش‌فرض
 CONFIG_FILE = "bot_config.json"
 DEFAULT_CONFIG = {
-    "host_usernames": ["@T.IC"],
-    "admin_usernames": ["@T.IC"],
+    "host_usernames": ["T.IC"],
+    "admin_usernames": ["T.IC"],
     "vip_usernames": [],
     "banned_users": [],
     "teleport_locations": {
@@ -928,7 +928,7 @@ class AdvancedBot(BaseBot):
             "emoji-halo": 15.0,
             "emoji-hadoken": 15.0,
             "emoji-give-up": 15.0,
-            "emoji-gagging": 15.0,
+yy yyyyuyyyyyyh          "emoji-gagging": 15.0,
             "emoji-flex": 15.0,
             "emoji-dizzy": 15.0,
             "emoji-cursing": 15.0,
@@ -952,7 +952,7 @@ class AdvancedBot(BaseBot):
             "dance-martial-artist": 15.0,
             "dance-macarena": 15.0,
             "dance-handsup": 15.0,
-            "dance-duckwalk": 15.0,
+            "dance-duckwalk": 15.0,yy
             "dance-breakdance": 15.0,
             "dance-blackpink": 15.0,
             "dance-aerobics": 15.0,
@@ -1302,7 +1302,7 @@ class AdvancedBot(BaseBot):
             elif msg_lower in ["stop", "استوپ"]:
                 await self.stop_dance(user)
             elif msg_lower in ["سازنده", "creature", "creator", "سازندت", "سازنده بات"]:
-                await self.highrise.chat("👑 سازنده این بات: @ad0ri 👑")
+                await self.highrise.chat("👑 سازنده این بات: @T.IC 👑")
             elif msg_lower.startswith("!"):
                 parts = msg.split()
                 parts_lower = [p.lower() for p in parts]
@@ -1333,7 +1333,7 @@ class AdvancedBot(BaseBot):
             "🔹 میزبانی ۲۴ ساعته و آنلاین بدون قطعی روی سرورهای قدرتمند ⚡\n\n"
             "🤝 **شرایط رنت (اجاره):**\n"
             "برای اجاره یا همان رنت این ربات فوق‌العاده برای روم خود، لطفاً همین الان به آیدی زیر پیام بدید:\n"
-            "👉 @ad0ri 👈"
+            "👉 @T.IC 👈"
         )
         
         try:
